@@ -1,3 +1,9 @@
+/*
+ * @Author: Bob
+ * @Date: 2021-04-13 22:37:47
+ * @LastEditors: Bob
+ * @LastEditTime: 2021-04-13 22:39:03
+ */
 // This is where project configuration and plugin options are located.
 // Learn more: https://gridsome.org/docs/config
 
@@ -10,7 +16,7 @@ module.exports = {
     {
       use: '@gridsome/source-strapi',
       options: {
-        apiURL: 'http://localhost:1337',
+        apiURL: 'http://106.75.100.154:1337/',
         queryLimit: 1000, // Defaults to 100
         contentTypes: ['posts'],
         typeName: 'Strapi'
